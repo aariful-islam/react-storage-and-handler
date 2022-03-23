@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addDb } from '../../utilities/addDb';
 import './Cosmetics.css'
 
 const Cosmetics = () => {
@@ -21,7 +22,7 @@ const Cosmetics = () => {
 const ShowCosmeticsDetails=(props)=>{
     const id=props.id
     const addToCart = (id) =>{
-        console.log(id);
+        addDb(id);
     }
     
 
