@@ -8,6 +8,7 @@ const Cosmetics = () => {
     .then(res=>res.json())
     .then(data=>setCosmetics(data))
   },[])
+  
     return (
         <div>
             {
@@ -18,6 +19,11 @@ const Cosmetics = () => {
     );
 };
 const ShowCosmeticsDetails=(props)=>{
+    const id=props.id
+    const addToCart = (id) =>{
+        console.log(id);
+    }
+    
 
     return(
         <div className='cosmeticsStyle'>
@@ -26,6 +32,7 @@ const ShowCosmeticsDetails=(props)=>{
             <h1>Name: {props.name}</h1>
             <p> Price: {props.price} </p>
             <p>Id : {props.id}</p>
+            <button onClick={() => addToCart(id)}>Click</button>
         
         </div>
     )
