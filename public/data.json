@@ -1,0 +1,37 @@
+[
+    {
+      "id": "623b6624a5aca093338c7c60",
+      "index": 0,
+      "price": 30,
+      "name": "Phelps Vaughn",
+      "gender": "male"
+    },
+    {
+      "id": "623b66244116ee69edbb4037",
+      "index": 1,
+      "price": 21,
+      "name": "Sheri Montgomery",
+      "gender": "female"
+    },
+    {
+      "id": "623b66243c8f7cb1d786ea9a",
+      "index": 2,
+      "price": 39,
+      "name": "Phoebe Vinson",
+      "gender": "female"
+    },
+    {
+      "id": "623b66245e33b291efd7502b",
+      "index": 3,
+      "price": 23,
+      "name": "Karla Steele",
+      "gender": "female"
+    },
+    {
+      "id": "623b662422cc81266638f9f3",
+      "index": 4,
+      "price": 23,
+      "name": "Graves Davis",
+      "gender": "male"
+    }
+  ]
